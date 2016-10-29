@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>应用负外边距</title>
+</head>
+<style class="text/css">
+	#container{position:absolute;
+			   left:50%;
+			   width:760px;
+			   margin-left:-380px;}
+</style>
+<body>
+<div id="container">应用负外边距实现居中首先将容器绝对定位于相对页面左边缘 50% 的位置，这样该容器的左边距将从页面 50% 宽度的位置开始算起，然后将容器的左外边距设置成为负的容器宽度的一半！此方法适用性极广----甚至在 Netscape Navigator 4.x 中都没问题，所以要想得到最广泛的浏览器支持，这是最好的选择。</div>
+</body>
+</html>
