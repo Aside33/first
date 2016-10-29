@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>flex居中</title>
+</head>
+<style class="text/css">
+    .main{
+        display: flex;
+        margin:0px;
+        padding:0px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main>div:first-child{
+        width:100px;
+        background:#0F0;
+    }
+    .main>div:last-child{
+        background:#FF0;
+        width: 200px;
+    }
+</style>
+<body>
+<div class="main">
+    <div>LEFT</div>
+    <div>RIGHT</div>
+    <span>gh</span>
+</div>
+</body>
+</html>
